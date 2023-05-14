@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/vampirerachel/goit-react-hw-02-phonebook/static/css/main.7acaea2f.css",
+    "main.css": "/vampirerachel/goit-react-hw-02-phonebook/static/css/main.60c660ec.css",
     "main.js": "/vampirerachel/goit-react-hw-02-phonebook/static/js/main.b89709d7.js",
     "index.html": "/vampirerachel/goit-react-hw-02-phonebook/index.html",
-    "main.7acaea2f.css.map": "/vampirerachel/goit-react-hw-02-phonebook/static/css/main.7acaea2f.css.map",
+    "main.60c660ec.css.map": "/vampirerachel/goit-react-hw-02-phonebook/static/css/main.60c660ec.css.map",
     "main.b89709d7.js.map": "/vampirerachel/goit-react-hw-02-phonebook/static/js/main.b89709d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
+    "static/css/main.60c660ec.css",
     "static/js/main.b89709d7.js"
   ]
 }
