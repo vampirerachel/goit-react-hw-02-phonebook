@@ -1,4 +1,4 @@
-import styles from "./style.module.css"
+
 import { useState, useRef } from "react"
 import { useId } from 'react';
 
@@ -21,11 +21,11 @@ return (
 <div>
 <h1>Phonebook</h1>
 <form onSubmit={handleChange}>
-<label htmlFor={"${id}-name"}>Name:</label>
+<label htmlFor={id}>Name:</label>
             <input
 ref ={nameRef}
 type="text"
-name={"${id}-name"}
+name={id}
 pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
 title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan."
 required
