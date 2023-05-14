@@ -1,4 +1,4 @@
-import Phonebook from "./index";
+import Phonebook from "./Phonebook/index";
 export const App = () => {
   return (
     <div>
