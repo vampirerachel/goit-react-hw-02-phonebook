@@ -6,7 +6,8 @@ import { useId } from 'react';
 export default function Phonebook() {
     const id = useId();
     const nameRef = useRef();
-    const [contacts, setContact] = useState([])
+    const [contacts, setContact] = useState([]);
+    
 
     function handleChange(event) {
         event.preventDefault();
@@ -30,7 +31,8 @@ pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
 title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan."
 required
 placeholder="          type name here"
-/>
+            />
+
 <button type="submit">Add Contact</button>
         </form>
         {contacts.length > 0 ? (
